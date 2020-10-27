@@ -130,7 +130,7 @@
         <children xmi:type="notation:BasicDecorationNode" xmi:id="_vwEnBRXAEeuhfrOgIqMPxg" type="Name"/>
         <children xmi:type="notation:BasicDecorationNode" xmi:id="_vwEnBhXAEeuhfrOgIqMPxg" type="Parent"/>
         <children xmi:type="notation:ListCompartment" xmi:id="_vwEnBxXAEeuhfrOgIqMPxg" visible="false" type="Extension_Points"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vwEnARXAEeuhfrOgIqMPxg" x="6600" y="-267"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vwEnARXAEeuhfrOgIqMPxg" x="9372" y="-264"/>
       </children>
       <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_1qh8wBaQEeuhH4j6G-VZlg" element="_-zQ6cBTxEeulMaOgKPK8IQ" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
         <children xmi:type="notation:DecorationNode" xmi:id="_1qij0BaQEeuhH4j6G-VZlg" type="ImageCompartment">
@@ -1558,7 +1558,7 @@
         <extend xmi:id="_3V2iIBT7EeulMaOgKPK8IQ" extendedCase="_EQC-IBTwEeulMaOgKPK8IQ" extensionLocation="_3V3JMBT7EeulMaOgKPK8IQ"/>
         <extensionPoint xmi:id="_IEA3oBTzEeulMaOgKPK8IQ" name="Puntodeextensión1"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_9aaGkBTwEeulMaOgKPK8IQ" name="CUS07 Mantener Cotización de servicio">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_9aaGkBTwEeulMaOgKPK8IQ" name="CUS07 Generar Cotización">
         <extend xmi:id="_785koBaOEeuhH4j6G-VZlg" extendedCase="_BNCqsBTxEeulMaOgKPK8IQ" extensionLocation="_78lbkBaOEeuhH4j6G-VZlg"/>
         <extensionPoint xmi:id="_dzKEoBTzEeulMaOgKPK8IQ" name="Puntodeextensión1"/>
         <extensionPoint xmi:id="_45e4EBT7EeulMaOgKPK8IQ" name="Puntodeextensión2"/>
