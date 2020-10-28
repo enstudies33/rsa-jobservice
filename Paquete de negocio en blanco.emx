@@ -120,7 +120,7 @@
         <children xmi:type="notation:BasicDecorationNode" xmi:id="_DteWJRWsEeuhfrOgIqMPxg" type="Name"/>
         <children xmi:type="notation:BasicDecorationNode" xmi:id="_DteWJhWsEeuhfrOgIqMPxg" type="Parent"/>
         <children xmi:type="notation:ListCompartment" xmi:id="_DteWJxWsEeuhfrOgIqMPxg" visible="false" type="Extension_Points"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DteWIRWsEeuhfrOgIqMPxg" x="20460" y="792"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DteWIRWsEeuhfrOgIqMPxg" x="19932" y="792"/>
       </children>
       <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_vwEnABXAEeuhfrOgIqMPxg" element="_9aaGkBTwEeulMaOgKPK8IQ" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
         <children xmi:type="notation:DecorationNode" xmi:id="_vwEnAhXAEeuhfrOgIqMPxg" type="ImageCompartment">
@@ -1431,7 +1431,7 @@
         <extensionPoint xmi:id="_cMDZYBTyEeulMaOgKPK8IQ" name="Puntodeextensión1"/>
         <extensionPoint xmi:id="_g-VcoBTyEeulMaOgKPK8IQ" name="Puntodeextensión2"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_HsYssBTxEeulMaOgKPK8IQ" name="CUS09 Registrar Solicitud de Servicio No Profesional">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_HsYssBTxEeulMaOgKPK8IQ" name="CUS09 Registrar Orden de Servicio No Profesional">
         <extensionPoint xmi:id="_FPAfwBT7EeulMaOgKPK8IQ" name="Puntodeextensión1"/>
         <extensionPoint xmi:id="_HM2sgBT7EeulMaOgKPK8IQ" name="Puntodeextensión2"/>
         <extensionPoint xmi:id="_JGZoEBT7EeulMaOgKPK8IQ" name="Puntodeextensión3"/>
@@ -1656,11 +1656,11 @@
         <extensionPoint xmi:id="_dzKEoBTzEeulMaOgKPK8IQ" name="Puntodeextensión1"/>
         <extensionPoint xmi:id="_45e4EBT7EeulMaOgKPK8IQ" name="Puntodeextensión2"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_BNCqsBTxEeulMaOgKPK8IQ" name="CUS08 Buscar Solicitudes de Servicios">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_BNCqsBTxEeulMaOgKPK8IQ" name="CUS08 Consultar Ordenes de Servicios">
         <extensionPoint xmi:id="_oGqlsBT8EeulMaOgKPK8IQ" name="Puntodeextensión1"/>
         <extensionPoint xmi:id="_78lbkBaOEeuhH4j6G-VZlg" name="Puntodeextensión2"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_Qg61cBWWEeugzp0fmnZEQA" name="CUS17 Evaluar Asignacion de servicio">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_Qg61cBWWEeugzp0fmnZEQA" name="CUS17 Evaluar Asignacion de la orden de servicio">
         <extensionPoint xmi:id="_gOC1oBWWEeugzp0fmnZEQA" name="Puntodeextensión1"/>
         <extensionPoint xmi:id="_t1B2oBXAEeuhfrOgIqMPxg" name="Puntodeextensión2"/>
       </packagedElement>
