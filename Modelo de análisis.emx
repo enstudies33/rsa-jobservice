@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Plataforma de modelado de Rational (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<uml:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_2yLzEBjaEeuHN4XtkCSlwg" name="Modelo de análisis">
+  <eAnnotations xmi:id="_2yLzERjaEeuHN4XtkCSlwg" source="uml2.diagrams" references="_2yLzEhjaEeuHN4XtkCSlwg">
+    <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_2yLzEhjaEeuHN4XtkCSlwg" type="Class" name="Main"/>
+  </eAnnotations>
+  <eAnnotations xmi:id="_2yLzExjaEeuHN4XtkCSlwg" source="com.ibm.xtools.common.ui.reduction.editingCapabilities">
+    <details xmi:id="_2yLzFBjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBActivityDiagram" value="1"/>
+    <details xmi:id="_2yLzFRjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBClassDiagram" value="1"/>
+    <details xmi:id="_2yLzFhjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBComponentDiagram" value="1"/>
+    <details xmi:id="_2yLzFxjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBSequenceDiagram" value="1"/>
+    <details xmi:id="_2yLzGBjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBUseCaseDiagram" value="1"/>
+    <details xmi:id="_2yLzGRjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBAction" value="1"/>
+    <details xmi:id="_2yLzGhjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBActivity1" value="1"/>
+    <details xmi:id="_2yLzGxjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBActivity2" value="1"/>
+    <details xmi:id="_2yLzHBjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBActivity3" value="1"/>
+    <details xmi:id="_2yLzHRjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBClass" value="1"/>
+    <details xmi:id="_2yLzHhjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBClassTemplateParameter" value="1"/>
+    <details xmi:id="_2yLzHxjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBCollaboration" value="1"/>
+    <details xmi:id="_2yLzIBjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBCollaborationUse" value="1"/>
+    <details xmi:id="_2yLzIRjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBComment1" value="1"/>
+    <details xmi:id="_2yLzIhjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBComment2" value="1"/>
+    <details xmi:id="_2yLzIxjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBCommunication" value="1"/>
+    <details xmi:id="_2yLzJBjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBComponent" value="1"/>
+    <details xmi:id="_2yLzJRjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBComponentTemplateParameter" value="1"/>
+    <details xmi:id="_2yLzJhjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBFragment" value="1"/>
+    <details xmi:id="_2yLzJxjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBFunction" value="1"/>
+    <details xmi:id="_2yLzKBjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBInterface" value="1"/>
+    <details xmi:id="_2yLzKRjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBInterfaceTemplateParameter" value="1"/>
+    <details xmi:id="_2yLzKhjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBLifeLine" value="1"/>
+    <details xmi:id="_2yLzKxjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBPackage" value="1"/>
+    <details xmi:id="_2yLzLBjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBPackageTemplateParameter" value="1"/>
+    <details xmi:id="_2yLzLRjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBRealization" value="1"/>
+    <details xmi:id="_2yLzLhjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBRelationship1" value="1"/>
+    <details xmi:id="_2yLzLxjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBRelationship2" value="1"/>
+    <details xmi:id="_2yLzMBjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBSequence1" value="1"/>
+    <details xmi:id="_2yLzMRjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBSequence2" value="1"/>
+    <details xmi:id="_2yLzMhjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBSubsystem" value="1"/>
+    <details xmi:id="_2yLzMxjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBTypes1" value="1"/>
+    <details xmi:id="_2yLzNBjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBTypes2" value="1"/>
+    <details xmi:id="_2yLzNRjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBTypes3" value="1"/>
+    <details xmi:id="_2yLzNhjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBTypes4" value="1"/>
+    <details xmi:id="_2yLzNxjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBUseCase1" value="1"/>
+    <details xmi:id="_2yLzOBjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBUseCase2" value="1"/>
+    <details xmi:id="_2yLzORjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBFunctionTemplateParameter" value="1"/>
+    <details xmi:id="_2yLzOhjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBPrimitiveTypeTemplateParameter" value="1"/>
+    <details xmi:id="_2yLzOxjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBElementImport1" value="1"/>
+    <details xmi:id="_2yLzPBjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBElementImport2" value="1"/>
+    <details xmi:id="_2yLzPRjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBArtifact" value="1"/>
+    <details xmi:id="_2yLzPhjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBProfile" value="1"/>
+    <details xmi:id="_2yLzPxjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBInteractionOverview" value="1"/>
+    <details xmi:id="_2yLzQBjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBStructureDiagram" value="1"/>
+    <details xmi:id="_2yLzQRjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBSignal" value="1"/>
+    <details xmi:id="_2yLzQhjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBInteractionOverviewDiagram" value="1"/>
+    <details xmi:id="_2yLzQxjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBRelationship3" value="1"/>
+    <details xmi:id="_2yLzRBjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBStateMachine1" value="1"/>
+    <details xmi:id="_2yLzRRjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBStateMachine2" value="1"/>
+    <details xmi:id="_2yLzRhjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBDeploymentSpecification" value="1"/>
+    <details xmi:id="_2yLzRxjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBAbstractionRelation" value="1"/>
+    <details xmi:id="_2yLzSBjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBActivity4" value="1"/>
+    <details xmi:id="_2yLzSRjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBTemplate" value="1"/>
+    <details xmi:id="_2yLzShjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBStereotypedDeployment1" value="1"/>
+    <details xmi:id="_2yLzSxjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBSpecificInstanceType1" value="1"/>
+    <details xmi:id="_2yLzTBjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBSpecificInstanceType2" value="1"/>
+    <details xmi:id="_2yLzTRjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBObjectDiagram" value="1"/>
+    <details xmi:id="_2yLzThjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBTiming" value="1"/>
+    <details xmi:id="_2yLzTxjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBDependancy" value="1"/>
+    <details xmi:id="_2yLzUBjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBUsage" value="1"/>
+    <details xmi:id="_2yLzURjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBFreeFormDiagram" value="1"/>
+    <details xmi:id="_2yLzUhjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBInstance" value="1"/>
+    <details xmi:id="_2yLzUxjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBStereotypedArtifact" value="1"/>
+    <details xmi:id="_2yLzVBjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBEvent1" value="1"/>
+    <details xmi:id="_2yLzVRjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBEvent2" value="1"/>
+    <details xmi:id="_2yLzVhjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBTimingDiagram" value="1"/>
+    <details xmi:id="_2yLzVxjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBConstraint" value="1"/>
+    <details xmi:id="_2yLzWBjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBCommunicationDiagram" value="1"/>
+    <details xmi:id="_2yLzWRjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBStereotypedClass" value="1"/>
+    <details xmi:id="_2yLzWhjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBProfileApplication" value="1"/>
+    <details xmi:id="_2yLzWxjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBStereotypedComponent" value="1"/>
+    <details xmi:id="_2yLzXBjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBInformationFlow" value="1"/>
+    <details xmi:id="_2yLzXRjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBComment3" value="1"/>
+    <details xmi:id="_2yLzXhjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBCompositeStructure1" value="1"/>
+    <details xmi:id="_2yLzXxjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBStateChartDiagram" value="1"/>
+    <details xmi:id="_2yLzYBjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBCompositeStructure2" value="1"/>
+    <details xmi:id="_2yLzYRjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBDeployment1" value="1"/>
+    <details xmi:id="_2yLzYhjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBDeployment2" value="1"/>
+    <details xmi:id="_2yLzYxjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBDeploymentDiagram" value="1"/>
+    <details xmi:id="_2yLzZBjaEeuHN4XtkCSlwg" key="com.ibm.xtools.activities.umlBBInteraction" value="1"/>
+  </eAnnotations>
+  <packageImport xmi:id="_2yLzZRjaEeuHN4XtkCSlwg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_2yLzZhjaEeuHN4XtkCSlwg" name="Activity1">
+    <eAnnotations xmi:id="_2yLzZxjaEeuHN4XtkCSlwg" source="uml2.diagrams">
+      <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_2yLzaBjaEeuHN4XtkCSlwg" type="Activity" element="_2yLzZhjaEeuHN4XtkCSlwg" name="ActivityDiagram1" measurementUnit="Himetric">
+        <children xmi:type="umlnotation:UMLFrame" xmi:id="_2yLzaRjaEeuHN4XtkCSlwg" type="Activity Frame" element="_2yLzZhjaEeuHN4XtkCSlwg" showStereotype="Label">
+          <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_2yLzahjaEeuHN4XtkCSlwg" type="ActivityCompartment"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_2yLzaxjaEeuHN4XtkCSlwg" type="Name"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2yLzbBjaEeuHN4XtkCSlwg" x="793" y="793"/>
+        </children>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_2yLzbRjaEeuHN4XtkCSlwg" name="support_hide_pins"/>
+      </contents>
+    </eAnnotations>
+  </packagedElement>
+  <profileApplication xmi:id="_2yLzbhjaEeuHN4XtkCSlwg">
+    <eAnnotations xmi:id="_2yLzbxjaEeuHN4XtkCSlwg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+  </profileApplication>
+  <profileApplication xmi:id="_2yLzcBjaEeuHN4XtkCSlwg">
+    <eAnnotations xmi:id="_2yLzcRjaEeuHN4XtkCSlwg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML2_MSL_PROFILES/Default.epx#_a_S3wNWLEdiy4IqP8whjFA?Default?"/>
+  </profileApplication>
+  <profileApplication xmi:id="_2yLzchjaEeuHN4XtkCSlwg">
+    <eAnnotations xmi:id="_2yLzcxjaEeuHN4XtkCSlwg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_IrdAUMmBEdqBcN1R6EvWUw?Deployment/Deployment?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment?"/>
+  </profileApplication>
+  <profileApplication xmi:id="_9Uj68BjaEeuHN4XtkCSlwg">
+    <eAnnotations xmi:id="_9UlwIBjaEeuHN4XtkCSlwg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://BM_PROFILES/BM.epx#_biXOMFSlEduDJ7xushbBPA?Business%20Modeling/BusinessModeling?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://BM_PROFILES/BM.epx#_vWDZcTB4EdmD3LtL1d2JnQ?Business%20Modeling?"/>
+  </profileApplication>
+  <profileApplication xmi:id="_-ZSHUBjaEeuHN4XtkCSlwg">
+    <eAnnotations xmi:id="_-ZSHURjaEeuHN4XtkCSlwg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://RUP_PROFILES/RUPAnalysis.epx#_DM6zsMmEEdqP1b5S0px2VQ?RUPAnalysis/RUPAnalysis?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://RUP_PROFILES/RUPAnalysis.epx#_ptUk0NtREdi6_tWeNeG1pw?RUPAnalysis?"/>
+  </profileApplication>
+  <profileApplication xmi:id="__S6eABjaEeuHN4XtkCSlwg">
+    <eAnnotations xmi:id="__S7FEBjaEeuHN4XtkCSlwg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://TRANSFORM_LDM_PROFILES/LogicalDataModel.epx#_hBL7IXu_Ed6aQr-ZHhSRig?LogicalDataModel/LogicalDataModel?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://TRANSFORM_LDM_PROFILES/LogicalDataModel.epx#_pEMyMKLSEdqRXLEkHnuHoQ?LogicalDataModel?"/>
+  </profileApplication>
+</uml:Model>
