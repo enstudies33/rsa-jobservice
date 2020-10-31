@@ -1678,48 +1678,48 @@
           </edges>
         </contents>
       </eAnnotations>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_C0fQgBidEeuHN4XtkCSlwg" name="CUS23 Mantener Direccion Solicitante"/>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_Mgfm0BTvEeulMaOgKPK8IQ" name="CUS01 Registro en plataforma Cliente Solicitante">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_C0fQgBidEeuHN4XtkCSlwg" name="CUS05 Mantener Direccion Solicitante"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_Mgfm0BTvEeulMaOgKPK8IQ" name="CUS02 Registro en plataforma Cliente Solicitante">
         <include xmi:id="_U4xFoBpbEeudNKKvREJnqA" addition="_dYecMBaSEeuhH4j6G-VZlg"/>
         <extend xmi:id="_40NhgBbzEeugEN7wRigXKg" extendedCase="_-zQ6cBTxEeulMaOgKPK8IQ" extensionLocation="_40P9wBbzEeugEN7wRigXKg"/>
         <extensionPoint xmi:id="_KQ66cRT7EeulMaOgKPK8IQ" name="Puntodeextensión1"/>
         <extensionPoint xmi:id="_xHngUBaSEeuhH4j6G-VZlg" name="Puntodeextensión2"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_pxYG8BTvEeulMaOgKPK8IQ" name="CUS02 Mantener Perfil Cliente Solicitante">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_pxYG8BTvEeulMaOgKPK8IQ" name="CUS04 Mantener Perfil Cliente Solicitante">
         <extensionPoint xmi:id="_cMDZYBTyEeulMaOgKPK8IQ" name="Puntodeextensión1"/>
         <extensionPoint xmi:id="_g-VcoBTyEeulMaOgKPK8IQ" name="Puntodeextensión2"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_HsYssBTxEeulMaOgKPK8IQ" name="CUS09 Registrar Orden de Servicio No Profesional">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_HsYssBTxEeulMaOgKPK8IQ" name="CUS08 Registrar Orden de Servicio No Profesional">
         <include xmi:id="_-nk9sBppEeudNKKvREJnqA" addition="_C0fQgBidEeuHN4XtkCSlwg"/>
         <extensionPoint xmi:id="_FPAfwBT7EeulMaOgKPK8IQ" name="Puntodeextensión1"/>
         <extensionPoint xmi:id="_HM2sgBT7EeulMaOgKPK8IQ" name="Puntodeextensión2"/>
         <extensionPoint xmi:id="_JGZoEBT7EeulMaOgKPK8IQ" name="Puntodeextensión3"/>
         <extensionPoint xmi:id="_YKSTABpWEeudNKKvREJnqA" name="Puntodeextensión4"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_UNWS4BTxEeulMaOgKPK8IQ" name="CUS11 Buscar Cliente Prestador de Servicio">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_UNWS4BTxEeulMaOgKPK8IQ" name="CUS09 Buscar Cliente Prestador de Servicio">
         <extend xmi:id="_HM3TkBT7EeulMaOgKPK8IQ" extendedCase="_HsYssBTxEeulMaOgKPK8IQ" extensionLocation="_HM2sgBT7EeulMaOgKPK8IQ"/>
         <extensionPoint xmi:id="_xEscMBTyEeulMaOgKPK8IQ" name="Puntodeextensión1"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_IMZ0EBTyEeulMaOgKPK8IQ" name="CUS14 Registar Pago">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_IMZ0EBTyEeulMaOgKPK8IQ" name="CUS10 Registar Pago">
         <extend xmi:id="_HZYggRl4EeuBE_oypqoh2g" extendedCase="_C0HlkBl4EeuBE_oypqoh2g" extensionLocation="_HZYggBl4EeuBE_oypqoh2g"/>
         <extend xmi:id="_0IiFcBl4EeuBE_oypqoh2g" extendedCase="_vGKXwBl4EeuBE_oypqoh2g" extensionLocation="_0IisgBl4EeuBE_oypqoh2g"/>
         <extensionPoint xmi:id="_t5wKMBTyEeulMaOgKPK8IQ" name="Puntodeextensión1"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_dYecMBaSEeuhH4j6G-VZlg" name="CUS20 Agregar método de pago">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_dYecMBaSEeuhH4j6G-VZlg" name="CUS3 Agregar método de pago">
         <eAnnotations xmi:id="_mJLc0BaSEeuhH4j6G-VZlg" source="uml2.diagrams">
           <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_mJLc0RaSEeuhH4j6G-VZlg" type="Usecase" name="DiagramaDeCasoDeUso1">
             <element xsi:nil="true"/>
           </contents>
         </eAnnotations>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_C0HlkBl4EeuBE_oypqoh2g" name="CUS17 Consultar mis ordenes de servicios">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_C0HlkBl4EeuBE_oypqoh2g" name="CUS06 Consultar mis ordenes de servicios">
         <include xmi:id="_u7XY8BpoEeudNKKvREJnqA" addition="_b8ZRkBl4EeuBE_oypqoh2g"/>
         <include xmi:id="_wPViQBpoEeudNKKvREJnqA" addition="_b8ZRkBl4EeuBE_oypqoh2g"/>
         <extensionPoint xmi:id="_GTPX0Bl4EeuBE_oypqoh2g" name="Puntodeextensión1"/>
         <extensionPoint xmi:id="_HZYggBl4EeuBE_oypqoh2g" name="Puntodeextensión2"/>
         <extensionPoint xmi:id="_f9w1QBl4EeuBE_oypqoh2g" name="Puntodeextensión3"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_b8ZRkBl4EeuBE_oypqoh2g" name="CUS25 Procesar asignación de la orden de servicio"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_b8ZRkBl4EeuBE_oypqoh2g" name="CUS07 Procesar asignación de la orden de servicio"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_vGKXwBl4EeuBE_oypqoh2g" name="CUS21 Consultar Cotizaciones recibidas">
         <extensionPoint xmi:id="_0IisgBl4EeuBE_oypqoh2g" name="Puntodeextensión1"/>
       </packagedElement>
@@ -2058,26 +2058,26 @@
           </edges>
         </contents>
       </eAnnotations>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_EQC-IBTwEeulMaOgKPK8IQ" name="CUS03 Registro en plataforma cliente prestador">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_EQC-IBTwEeulMaOgKPK8IQ" name="CUS11 Registro en plataforma cliente prestador">
         <extend xmi:id="_HV4ZIBfOEeu6EPGlyu4qtw" extendedCase="_-zQ6cBTxEeulMaOgKPK8IQ" extensionLocation="_HVzgoBfOEeu6EPGlyu4qtw"/>
         <extensionPoint xmi:id="_3V3JMBT7EeulMaOgKPK8IQ" name="Puntodeextensión1"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_VIhXIBTwEeulMaOgKPK8IQ" name="CUS04 Mantener Perfil Cliente Prestador de servicio">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_VIhXIBTwEeulMaOgKPK8IQ" name="CUS12 Mantener Perfil Cliente Prestador de servicio">
         <extensionPoint xmi:id="_IEA3oBTzEeulMaOgKPK8IQ" name="Puntodeextensión1"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_9aaGkBTwEeulMaOgKPK8IQ" name="CUS07 Mantener Cotización">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_9aaGkBTwEeulMaOgKPK8IQ" name="CUS15 Mantener Cotización">
         <extend xmi:id="_qR8QQBl3EeuBE_oypqoh2g" extendedCase="_BNCqsBTxEeulMaOgKPK8IQ" extensionLocation="_qR7pMBl3EeuBE_oypqoh2g"/>
         <extensionPoint xmi:id="_dzKEoBTzEeulMaOgKPK8IQ" name="Puntodeextensión1"/>
         <extensionPoint xmi:id="_45e4EBT7EeulMaOgKPK8IQ" name="Puntodeextensión2"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_BNCqsBTxEeulMaOgKPK8IQ" name="CUS08 Consultar Ordenes de Servicios por aplicar">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_BNCqsBTxEeulMaOgKPK8IQ" name="CUS14 Consultar Ordenes de Servicios por aplicar">
         <include xmi:id="_XLxsQBpqEeudNKKvREJnqA" addition="_9aaGkBTwEeulMaOgKPK8IQ"/>
         <extensionPoint xmi:id="_oGqlsBT8EeulMaOgKPK8IQ" name="Puntodeextensión1"/>
         <extensionPoint xmi:id="_78lbkBaOEeuhH4j6G-VZlg" name="Puntodeextensión2"/>
         <extensionPoint xmi:id="_qR7pMBl3EeuBE_oypqoh2g" name="Puntodeextensión3"/>
       </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_7Rgd0Bl5EeuBE_oypqoh2g" name="CUS30 Consultar Cotizaciones Enviadas"/>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_DsXKQBl6EeuBE_oypqoh2g" name="CUS18 Mantenimiento especialidad prestador"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_DsXKQBl6EeuBE_oypqoh2g" name="CUS13 Mantenimiento especialidad prestador"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_KE9j4BmiEeu6Mre-R7Z5Tg" name="CUS 29 Mis ordenes de servicios recibidas"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_E19ZgBTuEeulMaOgKPK8IQ" name="PQ005 Reutilizables">
@@ -2310,7 +2310,7 @@
           </edges>
         </contents>
       </eAnnotations>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_-zQ6cBTxEeulMaOgKPK8IQ" name="CUS13 login a la plataforma">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_-zQ6cBTxEeulMaOgKPK8IQ" name="CUS01 login a la plataforma">
         <extensionPoint xmi:id="_40P9wBbzEeugEN7wRigXKg" name="Puntodeextensión1"/>
         <extensionPoint xmi:id="_HVzgoBfOEeu6EPGlyu4qtw" name="Puntodeextensión2"/>
       </packagedElement>
