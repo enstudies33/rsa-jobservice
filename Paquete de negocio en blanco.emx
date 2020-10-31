@@ -1282,6 +1282,15 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dNYzABmyEeu6Mre-R7Z5Tg"/>
       </ownedEnd>
     </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_6zXNsBtEEeuAJ5kNRn_9kg" navigableOwnedEnd="_6zYb0BtEEeuAJ5kNRn_9kg">
+      <ownedEnd xmi:id="_6zYb0BtEEeuAJ5kNRn_9kg" name="mi Perfil" visibility="private" association="_6zXNsBtEEeuAJ5kNRn_9kg">
+        <type xmi:type="uml:Class" href="Modelo%20de%20análisis.emx#_9Ue8EBtDEeuAJ5kNRn_9kg?Modelo%20de%20análisis/Solicitante/Registro/CI_Mi%20Perfil?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6zZC4RtEEeuAJ5kNRn_9kg" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6zZC4BtEEeuAJ5kNRn_9kg" value="1"/>
+      </ownedEnd>
+      <memberEnd href="#_6zYb0BtEEeuAJ5kNRn_9kg?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E/mi%20Perfil?"/>
+      <memberEnd href="Modelo%20de%20análisis.emx#_6zZp8BtEEeuAJ5kNRn_9kg?Modelo%20de%20análisis/Solicitante/Registro/CI_Mi%20Perfil/cliente%20Solicitante?"/>
+    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_p5lvIBTsEeulMaOgKPK8IQ" name="Casos de Uso">
     <eAnnotations xmi:id="_p5lvIRTsEeulMaOgKPK8IQ" source="uml2.diagrams" references="_p5lvIhTsEeulMaOgKPK8IQ">
@@ -1370,7 +1379,7 @@
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_UNYvIBTxEeulMaOgKPK8IQ" type="Name"/>
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_UNYvIRTxEeulMaOgKPK8IQ" type="Parent"/>
             <children xmi:type="notation:ListCompartment" xmi:id="_UNYvIhTxEeulMaOgKPK8IQ" visible="false" type="Extension_Points"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UNYIERTxEeulMaOgKPK8IQ" x="11880" y="528"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UNYIERTxEeulMaOgKPK8IQ" x="18744" y="792"/>
           </children>
           <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_IMbpQBTyEeulMaOgKPK8IQ" element="_IMZ0EBTyEeulMaOgKPK8IQ" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
             <children xmi:type="notation:DecorationNode" xmi:id="_IMcQUBTyEeulMaOgKPK8IQ" type="ImageCompartment">
@@ -1773,6 +1782,10 @@
       <packagedElement xmi:type="uml:UseCase" xmi:id="_vGKXwBl4EeuBE_oypqoh2g" name="CUS21 Consultar Cotizaciones recibidas">
         <extensionPoint xmi:id="_0IisgBl4EeuBE_oypqoh2g" name="Puntodeextensión1"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_dLzCoBrmEeuAJ5kNRn_9kg" name="Duplicar_1_CUS02 Mantener Perfil Cliente Solicitante">
+        <extensionPoint xmi:id="_dLzCoRrmEeuAJ5kNRn_9kg" name="Puntodeextensión1"/>
+        <extensionPoint xmi:id="_dLzCohrmEeuAJ5kNRn_9kg" name="Puntodeextensión2"/>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_00HGgBTtEeulMaOgKPK8IQ" name="PQ002 Gestion de prestación de servicios no profesionales">
       <eAnnotations xmi:id="_00HtkBTtEeulMaOgKPK8IQ" source="uml2.diagrams" references="_00HtkRTtEeulMaOgKPK8IQ">
@@ -2141,7 +2154,7 @@
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_oGVE8RTwEeulMaOgKPK8IQ" type="Name"/>
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_oGVE8hTwEeulMaOgKPK8IQ" type="Parent"/>
             <children xmi:type="notation:ListCompartment" xmi:id="_oGVE8xTwEeulMaOgKPK8IQ" visible="false" type="Extension_Points"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oGT20RTwEeulMaOgKPK8IQ" x="8844" y="7920"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oGT20RTwEeulMaOgKPK8IQ" x="7656" y="7260"/>
           </children>
           <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_mTz3EBTzEeulMaOgKPK8IQ" element="_dA2FoBTtEeulMaOgKPK8IQ" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
             <children xmi:type="notation:DecorationNode" xmi:id="_mT0eIBTzEeulMaOgKPK8IQ" type="ImageCompartment">
