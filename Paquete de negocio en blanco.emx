@@ -2070,7 +2070,7 @@
         <extensionPoint xmi:id="_dzKEoBTzEeulMaOgKPK8IQ" name="Puntodeextensión1"/>
         <extensionPoint xmi:id="_45e4EBT7EeulMaOgKPK8IQ" name="Puntodeextensión2"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_BNCqsBTxEeulMaOgKPK8IQ" name="CUS14 Consultar Ordenes de Servicios por aplicar">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_BNCqsBTxEeulMaOgKPK8IQ" name="CUS14 Consultar Ordenes de Servicios">
         <include xmi:id="_XLxsQBpqEeudNKKvREJnqA" addition="_9aaGkBTwEeulMaOgKPK8IQ"/>
         <extensionPoint xmi:id="_oGqlsBT8EeulMaOgKPK8IQ" name="Puntodeextensión1"/>
         <extensionPoint xmi:id="_78lbkBaOEeuhH4j6G-VZlg" name="Puntodeextensión2"/>
