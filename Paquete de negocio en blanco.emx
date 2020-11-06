@@ -1282,15 +1282,6 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dNYzABmyEeu6Mre-R7Z5Tg"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_cJ4iUBuZEeuC_fBo9eBG4Q" navigableOwnedEnd="_cJ5JYBuZEeuC_fBo9eBG4Q">
-      <ownedEnd xmi:id="_cJ5JYBuZEeuC_fBo9eBG4Q" name="cI_Menu Principal" visibility="private" association="_cJ4iUBuZEeuC_fBo9eBG4Q">
-        <type xmi:type="uml:Class" href="Modelo%20de%20análisis.emx#_Wwk7UBuZEeuC_fBo9eBG4Q?Modelo%20de%20análisis/Pagos/CI_Menu%20Principal?"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cJ6XgRuZEeuC_fBo9eBG4Q" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cJ6XgBuZEeuC_fBo9eBG4Q" value="1"/>
-      </ownedEnd>
-      <memberEnd href="#_cJ5JYBuZEeuC_fBo9eBG4Q?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E/cI_Menu%20Principal?"/>
-      <memberEnd href="Modelo%20de%20análisis.emx#_cJ8MsBuZEeuC_fBo9eBG4Q?Modelo%20de%20análisis/Pagos/CI_Menu%20Principal/cliente%20Prestador?"/>
-    </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_DIiMsB_WEeuuReHNIftuaw" memberEnd="_DIja0B_WEeuuReHNIftuaw _DIko8B_WEeuuReHNIftuaw" navigableOwnedEnd="_DIja0B_WEeuuReHNIftuaw _DIko8B_WEeuuReHNIftuaw">
       <ownedEnd xmi:id="_DIja0B_WEeuuReHNIftuaw" name="cUS17 Consultar Mis Ordenes de Servicios" visibility="private" type="_-c15oB_VEeuuReHNIftuaw" association="_DIiMsB_WEeuuReHNIftuaw">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DIkB4B_WEeuuReHNIftuaw" value="1"/>
@@ -1300,6 +1291,24 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DIlQAB_WEeuuReHNIftuaw" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DIko8R_WEeuuReHNIftuaw" value="1"/>
       </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jwsCACCDEeuFcZxS3hymAg" navigableOwnedEnd="_jwtQICCDEeuFcZxS3hymAg">
+      <ownedEnd xmi:id="_jwtQICCDEeuFcZxS3hymAg" name="cI_Mantener Cotización" visibility="private" association="_jwsCACCDEeuFcZxS3hymAg">
+        <type xmi:type="uml:Class" href="Modelo%20de%20análisis.emx#_6M4sQBszEeuC_fBo9eBG4Q?Modelo%20de%20análisis/Pagos/CI_Mantener%20Cotización?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jwt3MSCDEeuFcZxS3hymAg" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jwt3MCCDEeuFcZxS3hymAg" value="1"/>
+      </ownedEnd>
+      <memberEnd href="#_jwtQICCDEeuFcZxS3hymAg?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E/cI_Mantener%20Cotización?"/>
+      <memberEnd href="Modelo%20de%20análisis.emx#_jwvFUCCDEeuFcZxS3hymAg?Modelo%20de%20análisis/Pagos/CI_Mantener%20Cotización/cliente%20Prestador?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_kG9M8CCDEeuFcZxS3hymAg" navigableOwnedEnd="_kG90ACCDEeuFcZxS3hymAg">
+      <ownedEnd xmi:id="_kG90ACCDEeuFcZxS3hymAg" name="cI_Menu Principal" visibility="private" association="_kG9M8CCDEeuFcZxS3hymAg">
+        <type xmi:type="uml:Class" href="Modelo%20de%20análisis.emx#_Wwk7UBuZEeuC_fBo9eBG4Q?Modelo%20de%20análisis/Pagos/CI_Menu%20Principal?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kG-bECCDEeuFcZxS3hymAg" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kG90ASCDEeuFcZxS3hymAg" value="1"/>
+      </ownedEnd>
+      <memberEnd href="#_kG90ACCDEeuFcZxS3hymAg?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E/cI_Menu%20Principal?"/>
+      <memberEnd href="Modelo%20de%20análisis.emx#_kG_CICCDEeuFcZxS3hymAg?Modelo%20de%20análisis/Pagos/CI_Menu%20Principal/cliente%20Prestador?"/>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_p5lvIBTsEeulMaOgKPK8IQ" name="Casos de Uso">
