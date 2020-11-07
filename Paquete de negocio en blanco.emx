@@ -1284,12 +1284,21 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_6zXNsBtEEeuAJ5kNRn_9kg" navigableOwnedEnd="_6zYb0BtEEeuAJ5kNRn_9kg">
       <ownedEnd xmi:id="_6zYb0BtEEeuAJ5kNRn_9kg" name="mi Perfil" visibility="private" association="_6zXNsBtEEeuAJ5kNRn_9kg">
-        <type xmi:type="uml:Class" href="Modelo%20de%20análisis.emx#_9Ue8EBtDEeuAJ5kNRn_9kg?Modelo%20de%20análisis/Solicitante/Registro/CI_Mi%20Perfil?"/>
+        <type xmi:type="uml:Class" href="Modelo%20de%20análisis.emx#_9Ue8EBtDEeuAJ5kNRn_9kg?Modelo%20de%20análisis/Solicitante/Registro/CI_Registrar%20usuario%20solicitante?"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6zZC4RtEEeuAJ5kNRn_9kg" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6zZC4BtEEeuAJ5kNRn_9kg" value="1"/>
       </ownedEnd>
       <memberEnd href="#_6zYb0BtEEeuAJ5kNRn_9kg?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E/mi%20Perfil?"/>
-      <memberEnd href="Modelo%20de%20análisis.emx#_6zZp8BtEEeuAJ5kNRn_9kg?Modelo%20de%20análisis/Solicitante/Registro/CI_Mi%20Perfil/cliente%20Solicitante?"/>
+      <memberEnd href="Modelo%20de%20análisis.emx#_6zZp8BtEEeuAJ5kNRn_9kg?Modelo%20de%20análisis/Solicitante/Registro/CI_Registrar%20usuario%20solicitante/cliente%20Solicitante?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_LOKr4BtIEeuAJ5kNRn_9kg" navigableOwnedEnd="_LOLS8BtIEeuAJ5kNRn_9kg">
+      <ownedEnd xmi:id="_LOLS8BtIEeuAJ5kNRn_9kg" name="cI_Agregar Método de Pago" visibility="private" association="_LOKr4BtIEeuAJ5kNRn_9kg">
+        <type xmi:type="uml:Class" href="Modelo%20de%20análisis.emx#_TzTyMBtHEeuAJ5kNRn_9kg?Modelo%20de%20análisis/Pagos/Agregar%20Método%20de%20Pago/Clase1/CI_Mantener%20Método%20de%20Pago?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LOLS8htIEeuAJ5kNRn_9kg" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LOLS8RtIEeuAJ5kNRn_9kg" value="1"/>
+      </ownedEnd>
+      <memberEnd href="#_LOLS8BtIEeuAJ5kNRn_9kg?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E/cI_Agregar%20Método%20de%20Pago?"/>
+      <memberEnd href="Modelo%20de%20análisis.emx#_LOL6ABtIEeuAJ5kNRn_9kg?Modelo%20de%20análisis/Pagos/Agregar%20Método%20de%20Pago/Clase1/CI_Mantener%20Método%20de%20Pago/cliente%20Prestador?"/>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_p5lvIBTsEeulMaOgKPK8IQ" name="Casos de Uso">
@@ -1448,6 +1457,16 @@
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_vGM0ARl4EeuBE_oypqoh2g" type="Parent"/>
             <children xmi:type="notation:ListCompartment" xmi:id="_vGM0Ahl4EeuBE_oypqoh2g" visible="false" type="Extension_Points"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vGMM8Rl4EeuBE_oypqoh2g" x="7260" y="5148"/>
+          </children>
+          <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_qNJJQCCdEeukiroBHBROjg" element="_qNHUECCdEeukiroBHBROjg" fontName="Segoe UI" fontHeight="8" showListSignature="true" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Image">
+            <children xmi:type="notation:DecorationNode" xmi:id="_qNJwUCCdEeukiroBHBROjg" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_qNJwUSCdEeukiroBHBROjg" width="2216" height="1322"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_qNJwUiCdEeukiroBHBROjg" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_qNJwUyCdEeukiroBHBROjg" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_qNJwVCCdEeukiroBHBROjg" type="Parent"/>
+            <children xmi:type="notation:ListCompartment" xmi:id="_qNKXYCCdEeukiroBHBROjg" visible="false" type="Extension_Points"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qNJJQSCdEeukiroBHBROjg" x="11220" y="15576"/>
           </children>
           <element xsi:nil="true"/>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_YsC2UBTyEeulMaOgKPK8IQ" element="_Yr-k4BTyEeulMaOgKPK8IQ" source="_OkZQ4BTyEeulMaOgKPK8IQ" target="_Mgg08BTvEeulMaOgKPK8IQ" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -1735,11 +1754,21 @@
             </children>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_u7XY8hpoEeudNKKvREJnqA" points="[-2, 10, 21, -91]$[-20, 126, 3, 25]"/>
           </edges>
+          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_v6npcCCdEeukiroBHBROjg" element="_v6j_ECCdEeukiroBHBROjg" source="_Mgg08BTvEeulMaOgKPK8IQ" target="_qNJJQCCdEeukiroBHBROjg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_v6oQgCCdEeukiroBHBROjg" type="KindLabel">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_v6oQgiCdEeukiroBHBROjg" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_v6oQhCCdEeukiroBHBROjg" type="Kind"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_v6oQgyCdEeukiroBHBROjg" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v6oQgSCdEeukiroBHBROjg" y="-186"/>
+            </children>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v6npcSCdEeukiroBHBROjg" points="[2, 9, -12, -71]$[17, 105, 3, 25]"/>
+          </edges>
         </contents>
       </eAnnotations>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_C0fQgBidEeuHN4XtkCSlwg" name="CUS23 Mantener Direccion Solicitante"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_Mgfm0BTvEeulMaOgKPK8IQ" name="CUS01 Registro en plataforma Cliente Solicitante">
         <include xmi:id="_U4xFoBpbEeudNKKvREJnqA" addition="_dYecMBaSEeuhH4j6G-VZlg"/>
+        <include xmi:id="_v6j_ECCdEeukiroBHBROjg" addition="_qNHUECCdEeukiroBHBROjg"/>
         <extend xmi:id="_40NhgBbzEeugEN7wRigXKg" extendedCase="_-zQ6cBTxEeulMaOgKPK8IQ" extensionLocation="_40P9wBbzEeugEN7wRigXKg"/>
         <extensionPoint xmi:id="_KQ66cRT7EeulMaOgKPK8IQ" name="Puntodeextensión1"/>
         <extensionPoint xmi:id="_xHngUBaSEeuhH4j6G-VZlg" name="Puntodeextensión2"/>
@@ -1764,7 +1793,7 @@
         <extend xmi:id="_0IiFcBl4EeuBE_oypqoh2g" extendedCase="_vGKXwBl4EeuBE_oypqoh2g" extensionLocation="_0IisgBl4EeuBE_oypqoh2g"/>
         <extensionPoint xmi:id="_t5wKMBTyEeulMaOgKPK8IQ" name="Puntodeextensión1"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_dYecMBaSEeuhH4j6G-VZlg" name="CUS20 Agregar método de pago">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_dYecMBaSEeuhH4j6G-VZlg" name="CUS20 Mantener método de pago">
         <eAnnotations xmi:id="_mJLc0BaSEeuhH4j6G-VZlg" source="uml2.diagrams">
           <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_mJLc0RaSEeuhH4j6G-VZlg" type="Usecase" name="DiagramaDeCasoDeUso1">
             <element xsi:nil="true"/>
@@ -1786,6 +1815,7 @@
         <extensionPoint xmi:id="_dLzCoRrmEeuAJ5kNRn_9kg" name="Puntodeextensión1"/>
         <extensionPoint xmi:id="_dLzCohrmEeuAJ5kNRn_9kg" name="Puntodeextensión2"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_qNHUECCdEeukiroBHBROjg" name="CUS03 Mantener Dirección"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_00HGgBTtEeulMaOgKPK8IQ" name="PQ002 Gestion de prestación de servicios no profesionales">
       <eAnnotations xmi:id="_00HtkBTtEeulMaOgKPK8IQ" source="uml2.diagrams" references="_00HtkRTtEeulMaOgKPK8IQ">
