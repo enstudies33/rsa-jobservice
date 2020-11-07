@@ -1232,6 +1232,15 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dNYzABmyEeu6Mre-R7Z5Tg"/>
       </ownedEnd>
     </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_FF0yQB_2EeupCqAX7j-IlQ" navigableOwnedEnd="_FF2AYB_2EeupCqAX7j-IlQ">
+      <ownedEnd xmi:id="_FF2AYB_2EeupCqAX7j-IlQ" name="cI_Resgistrar Prestador" visibility="private" association="_FF0yQB_2EeupCqAX7j-IlQ">
+        <type xmi:type="uml:Class" href="Modelo%20de%20análisis.emx#_BRiBQB_2EeupCqAX7j-IlQ?Modelo%20de%20análisis/Prestador/CI_Resgistrar%20Prestador?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FF2ncR_2EeupCqAX7j-IlQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FF2ncB_2EeupCqAX7j-IlQ" value="1"/>
+      </ownedEnd>
+      <memberEnd href="#_FF2AYB_2EeupCqAX7j-IlQ?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E/cI_Resgistrar%20Prestador?"/>
+      <memberEnd href="Modelo%20de%20análisis.emx#_FF3OgB_2EeupCqAX7j-IlQ?Modelo%20de%20análisis/Prestador/CI_Resgistrar%20Prestador/cliente%20Prestador?"/>
+    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_p5lvIBTsEeulMaOgKPK8IQ" name="Casos de Uso">
     <eAnnotations xmi:id="_p5lvIRTsEeulMaOgKPK8IQ" source="uml2.diagrams" references="_p5lvIhTsEeulMaOgKPK8IQ">
